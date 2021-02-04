@@ -1,0 +1,5 @@
+#!/usr/bin/env ruby
+
+require "bundler/setup"
+require_relative "../lib/lyrics_cli"
+user_1 = User.new
