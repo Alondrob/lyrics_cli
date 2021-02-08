@@ -14,24 +14,7 @@ class Genre
         @artists = []
     end
 
-    # def genre
-    #     x = music_data.map do |genre, artist|  
-    #         # binding.pry
-    #           genre.to_s
-    #     end
 
-    #     #  binding.pry
-    # end
-
-    # def genre_capitalize
-    #     new_arr = self.genre
-    #     genres = new_arr.map {|elm| elm.split}
-    #     # binding.pry 
-    #     genres_2 = genres.map do |elm|
-    #         elm.map {|i| i.capitalize}.join(" ")      
-    #     end
-    #     genres_2.sort
-    # end
 
     def add_artists(music_data)
         puts "Please wait, loading data ..."
